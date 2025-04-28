@@ -34,6 +34,7 @@ To start sending data, use the following command to execute stream.py (sender):
   spark-submit src/stream.py --folder /path/to/data --batch-size 32
   ```
 • Adjust the --folder parameter to point to the directory containing your CIFAR-10 dataset.
+
 • Modify the --batch-size parameter as desired.
 2. Run the receiver:
 To start receiving and processing data, use the following command to execute main.py (receiver):
