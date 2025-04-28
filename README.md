@@ -32,7 +32,7 @@ Client-Server-Simulation-for-Real-Time-Data-Streaming-and-ML-Model-Training-usin
 1. Run the sender:
 To start sending data, use the following command to execute stream.py (sender):
   ```bash
-  spark-submit src/stream.py --folder /path/to/data --batch-size 32
+  spark-submit "src/stream.py" --folder /path/to/data --batch-size 32
   ```
 • Adjust the --folder parameter to point to the directory containing your CIFAR-10 dataset.
 
@@ -41,7 +41,7 @@ To start sending data, use the following command to execute stream.py (sender):
 2. Run the receiver:
 To start receiving and processing data, use the following command to execute main.py (receiver):
   ```bash
-  spark-submit src/main.py
+  spark-submit "src/main.py"
   ```
 This will run the receiver, which will continuously process the incoming data and apply online learning with the SGDClassifier.
 ## Note
