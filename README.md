@@ -6,7 +6,7 @@ The Spark Streaming process involves the following stages: First, the sender (st
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/locngocphan12/Client-Server-Simulation-for-Real-Time-Data-Streaming-and-ML-Model-Training-using-RDD.git
    cd Client-Server-Simulation-for-Real-Time-Data-Streaming-and-ML-Model-Training-using-RDD
@@ -36,6 +36,7 @@ To start sending data, use the following command to execute stream.py (sender):
 • Adjust the --folder parameter to point to the directory containing your CIFAR-10 dataset.
 
 • Modify the --batch-size parameter as desired.
+
 2. Run the receiver:
 To start receiving and processing data, use the following command to execute main.py (receiver):
   ```bash
