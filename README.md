@@ -10,6 +10,7 @@ Clone the repository:
    ```bash
    git clone https://github.com/locngocphan12/Client-Server-Simulation-for-Real-Time-Data-Streaming-and-ML-Model-Training-using-RDD.git
    cd Client-Server-Simulation-for-Real-Time-Data-Streaming-and-ML-Model-Training-using-RDD
+   ```
 
 ## Directory Structure
 
